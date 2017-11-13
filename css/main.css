@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+    font-family:'Raleway', sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#about, #skills, #work, #contact {
+    height: 500px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+/*****Header*****/
+header {
+    height: 600px;
+    background-image: url("../img/boat-water.jpg");
+    background-size: 1300px 600px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+header h1 {
+    font-family: 'Handlee', cursive;
+    font-size: 72px;
+    color: #17252A;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FEFFFF;
+}
+
+a:hover {
+  color: #17252A;
+  text-decoration: underline;
+}
+
+header h2 {
+  font-size: 32px;
+  align: left;
+  clear: both;
+}
+
+
+#whitefont {
+  color:#FEFFFF;
+}
+
+/*****About*****/
+#about h2 {
+    font-size: 36px;
+    padding: 10px 50px 10px 50px;
+}
+
+#about p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#about img {
+  margin-left: 150px;
+}
+
+#about .half-width img {
+  border: 40px;
+  border-color: #2B7A7b;
+  border-style: solid;
+}
+
+
+/*****Skills*****/
+#skills h2 {
+    font-size: 36px;
+    padding: 10px 50px 10px 50px;
+}
+
+#skills .third-width img {
+  padding-top: 25px;
+  float:left;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+
+#skills .third-width h2 {
+  text-align: center;
+  clear: both;
+}
+
+#skills .third-width p {
+  text-align: center;
+  clear:both;
+}
+
+
+/*****Work*****/
+#work h2 {
+    font-size: 36px;
+    padding: 10px 50px 10px 50px;
+}
+
+#work .third-width img{
+  float:left;
+  margin-left: 160px;
+  margin-bottom: 20px;
+}
+
+#work .third-width h2 {
+  text-align: center;
+  clear:both;
+}
+
+#work .third-width p {
+  text-align: center;
+  clear:both;
+}
+
+/*****Contact*****/
+#contact .full-width h2 {
+    font-size: 36px;
+    padding: 10px 50px 10px 50px;
+}
+
+#contact .half-width h3 {
+  text-align: center;
+}
+
+#contact .half-width p {
+  text-align: center;
+}
+
+#contact ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+#contact .iconsfooter {
+  clear:both;
+}
